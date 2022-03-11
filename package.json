@@ -1,0 +1,27 @@
+{
+  "name": "web_scraper_tutorial",
+  "version": "1.0.0",
+  "description": "web scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drydenbussey/Web_Scraper_Tutorial.git"
+  },
+  "author": "Dryden Bussey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drydenbussey/Web_Scraper_Tutorial/issues"
+  },
+  "homepage": "https://github.com/drydenbussey/Web_Scraper_Tutorial#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.3",
+    "node": "^17.5.0",
+    "nodemon": "^2.0.15"
+  }
+}
